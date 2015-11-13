@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>I am ready to help you!</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="css/animate.css" rel="stylesheet" />
+    <!-- Squad theme CSS -->
+    <link href="css/style.css" rel="stylesheet">
+	<link href="color/default.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+	<!-- Preloader -->
+	<div id="preloader">
+	  <div id="load"></div>
+	</div>
+
+     <nav class="navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <a class="hover" href="index.html">
+                    Winter Wind
+                </a>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <section>
+    <!-- Page Content -->
+    <div class="container">
+        <!-- Portfolio Item Heading -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Lisa Liu
+                    <small>CEO of winterwind</small>
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Portfolio Item Row -->
+        <div class="row">
+
+            <div class="col-md-8">
+                <img class="img-responsive" src="img/team/profolio/profolio_lisa.jpg" alt="Lisa Liu" width="404" height="336">
+            </div>
+
+            <div class="col-md-4">
+                <h3>Project Description</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
+                <h3>Project Details</h3>
+                <ul>
+                    <li>Lorem Ipsum</li>
+                    <li>Dolor Sit Amet</li>
+                    <li>Consectetur</li>
+                    <li>Adipiscing Elit</li>
+                </ul>
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+        <!-- Related Projects Row -->
+        <div class="row">
+
+            <div class="col-lg-12">
+                <h3 class="page-header">Related Projects</h3>
+            </div>
+
+            <div >
+                <a href="#">
+                   <video id="video1" poster="img/icons/video_poster.jpg" onclick="playPause()" controls>
+                  <source src="video/Lana-Del-Rey.mp4" type="video/mp4" >
+                </video> 
+                </a>
+            </div>
+
+           <!-- <div class="col-sm-3 col-xs-6">
+               <a href="#">
+                   <video id="video1" width="250" height="200" poster="img/icons/video_poster.jpg" onclick="playPause()" controls>
+                  <source src="video/Lana-Del-Rey.mp4" width="470" height="264" type="video/mp4" >
+                </video> 
+                </a>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+               <a href="#">
+                   <video id="video1" width="250" height="200" poster="img/icons/video_poster.jpg" onclick="playPause()" controls>
+                  <source src="video/Lana-Del-Rey.mp4" width="470" height="264" type="video/mp4" >
+                </video> 
+                </a>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+               <a href="#">
+                    <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
+                </a>
+                <a href="#">
+                   <video id="video1" width="250" height="200" poster="img/icons/video_poster.jpg" onclick="playPause()" controls>
+                  <source src="video/Lana-Del-Rey.mp4" width="470" height="264" type="video/mp4" >
+                </video> 
+                </a>
+            </div>-->
+
+        </div>
+    </section>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+
+
+    <!-- Core JavaScript Files -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>	
+	<script src="js/jquery.scrollTo.js"></script>
+	<script src="js/wow.min.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="js/custom.js"></script>
+     <script> 
+                var myVideo=document.getElementById("video1"); 
+                var att=document.createAttribute("poster");
+                if (myVideo.error) {
+                     switch (myVideo.error.code) {
+                       case MEDIA_ERR_NETWORK:alert("Network error - please try again later.");break;
+                       case MEDIA_ERR_DECODE:alert("Video is broken.."); break;
+                       case MEDIA_ERR_SRC_NOT_SUPPORTED:alert("Sorry, your browser can't play this video."); break;
+                     }
+                }
+                else
+                {
+                    function playPause()
+                    { 
+                        if (myVideo.paused) 
+                        {
+                          myVideo.play();
+                          att.value="";
+                          myVideo.setAttributeNode(att);
+                        }
+                        else myVideo.pause();
+                    }
+                }  
+     </script>            
+
+</body>
+
+</html>
