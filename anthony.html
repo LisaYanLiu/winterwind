@@ -14,20 +14,19 @@
 
     <!-- Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-	<link href="css/animate.css" rel="stylesheet" />
+    <link href="css/animate.css" rel="stylesheet" />
     <!-- Squad theme CSS -->
     <link href="css/style.css" rel="stylesheet">
-	<link href="color/default.css" rel="stylesheet">
+    <link href="color/default.css" rel="stylesheet">
 
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
-	<!-- Preloader -->
-	<div id="preloader">
-	  <div id="load"></div>
-	</div>
-
-     <nav role="navigation">
+    <!-- Preloader -->
+    <div id="preloader">
+      <div id="load"></div>
+    </div>
+    <nav role="navigation">
         <div class="container">
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
@@ -66,18 +65,18 @@
         <!-- Portfolio Item Heading -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Lisa Liu
-                    <small>CEO of winterwind</small>
+                <h1 class="page-header">Anthony V
+                    <small>PHP Ninjia</small>
                 </h1>
             </div>
         </div>
-        <!-- /.row -->
+        <!-- /.row --> 
 
         <!-- Portfolio Item Row -->
         <div class="row">
 
             <div class="col-md-8">
-                <img class="img-responsive" src="img/team/profolio/profolio_lisa.jpg" alt="Lisa Liu" width="404" height="336">
+                <img class="img-responsive" src="img/team/profolio/profolio_anthony.jpg" alt="Anthony V" width="404" height="336">
             </div>
 
             <div class="col-md-4">
@@ -97,17 +96,6 @@
 
         <!-- Related Projects Row -->
         <div class="row">
-
-            <div class="media">
-              <div class="media-left media-middle">
-                <object class="embed-responsive-item">
-                   <video id="video1" poster="img/icons/video_poster.jpg" onclick="playPause()" controls>
-                   <source src="video/Lana-Del-Rey.mp4" type="video/mp4" >
-                </object>
-              </div>
-            </div>
-
-           
 
             <div class="col-lg-12">
                 <h3 class="page-header">Related Projects</h3>
@@ -159,35 +147,11 @@
     <!-- Core JavaScript Files -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.easing.min.js"></script>	
-	<script src="js/jquery.scrollTo.js"></script>
-	<script src="js/wow.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script> 
+    <script src="js/jquery.scrollTo.js"></script>
+    <script src="js/wow.min.js"></script>
     <!-- Custom Theme JavaScript -->
     <script src="js/custom.js"></script>
-     <script> 
-                var myVideo=document.getElementById("video1"); 
-                var att=document.createAttribute("poster");
-                if (myVideo.error) {
-                     switch (myVideo.error.code) {
-                       case MEDIA_ERR_NETWORK:alert("Network error - please try again later.");break;
-                       case MEDIA_ERR_DECODE:alert("Video is broken.."); break;
-                       case MEDIA_ERR_SRC_NOT_SUPPORTED:alert("Sorry, your browser can't play this video."); break;
-                     }
-                }
-                else
-                {
-                    function playPause()
-                    { 
-                        if (myVideo.paused) 
-                        {
-                          myVideo.play();
-                          att.value="";
-                          myVideo.setAttributeNode(att);
-                        }
-                        else myVideo.pause();
-                    }
-                }  
-     </script>            
 
 </body>
 
