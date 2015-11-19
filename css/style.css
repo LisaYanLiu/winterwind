@@ -792,14 +792,15 @@ Parallax
 }
 
 .shadowbox{
-	-webkit-box-shadow: -3px 6px 23px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: -3px 6px 23px 0px rgba(0,0,0,0.75);
-	box-shadow: -3px 6px 23px 0px rgba(0,0,0,0.75);
-	margin-top:40px;
-	padding: 20px;
+	-webkit-box-shadow: -3px 6px 23px 0px rgba(0,0,0,0.35);
+	-moz-box-shadow: -3px 6px 23px 0px rgba(0,0,0,0.35);
+	box-shadow: -3px 6px 23px 0px rgba(0,0,0,0.35);
 }
 
 .table-sortable tbody tr {
     cursor: move;
 }
 
+.row-centered {
+    text-align:center;
+}
