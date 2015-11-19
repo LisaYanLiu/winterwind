@@ -798,3 +798,8 @@ Parallax
 	margin-top:40px;
 	padding: 20px;
 }
+
+.table-sortable tbody tr {
+    cursor: move;
+}
+
