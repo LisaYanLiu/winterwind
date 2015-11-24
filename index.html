@@ -98,10 +98,26 @@
 			</div>
 		</div>
 		<div class="container">
+		<div class="row">
 		<div class="row shadowbox tip-board">
 			<p class="text-left"><img class="pull-right" src="img/icons/smile.png" alt="smile-img" >We are leading retail and wholesale suppliers of high-class fresh produce, vegetables, salads, fruit, prepared produce and dairy based in Thiland.Our ethos is to provide exceptional standards of quality and service in all areas of our business.Our core business is the wholesale supply and distribution of high-class fresh produce and dairy. Our premises comprise a purpose-built unit containing cold storage facilities, air conditioned order preparation/picking area, ambient storage and covered loading bay, complete with a state-of-the-art computer system.wiinterwind is also very proud to boast an impressive and extensive retail outlet and floristry department, which serves the local community and beyond.
 			</p>
 		</div>
+		<div class="row">
+			<div class="text-center col-xs-12">
+				<h3>Display the following buttoms</h3>
+				<div class="well well-sm">
+					<div class="btn-group">
+						<label class="btn btn-default"><input type="checkbox" class="reset-data" data-defalut-state="true">label 1</label>
+						<label class="btn btn-default"><input type="checkbox" class="reset-data" data-defalut-enabled="false"/>label 2</label>
+						<label class="btn btn-default"><input type="checkbox" class="reset-state"/>label 3</label>
+						<label class="btn btn-default"><input type="checkbox" class="reset-enabled"/>label 4</label>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		
         <div class="container row">
 			<div class="col-xs-6 col-sm-3 col-md-3">
 				<div class="wow bounceInUp" data-wow-delay="0.1s">
@@ -393,6 +409,26 @@
 	<script src="js/wow.min.js"></script>
     <!-- Custom Theme JavaScript -->
     <script src="js/custom.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('input[type="checkbox"].reset-data').checkbox({
+				checkedClass: 'icon-check',
+				uncheckedClass: 'icon-check-empty'
+			});
+			$('input[type="checkbox"].reset-state').checkbox({
+				defalutState:true,
+				checkedClass: 'icon-check',
+				uncheckedClass: 'icon-check-empty'
+			});
+			$('input[type="checkbox"].reset-enabled').checkbox({
+				defalutEnabled:false,
+				checkedClass: 'icon-check',
+				uncheckedClass: 'icon-check-empty'
+			});
+		});
+		
+		
+	</script>
 
 </body>
 
