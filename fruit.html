@@ -39,6 +39,21 @@
 			padding-top:0.5em,
 			padding-bottom:0.5em,
 		}
+		.rating {
+		  display:block;
+		  unicode-bidi: bidi-override;
+		  direction: rtl;
+		}
+		.rating > span {
+		  display: inline-block;
+		  position: relative;
+		  width: 1.1em;
+		}
+		.rating > span:hover:before,
+		.rating > span:hover ~ span:before {
+		   content: "\2605";
+		   position: absolute;
+		}
 	</style>
 
 </head>
@@ -89,12 +104,15 @@
 								<a href="#"><img src="img/fruit/Tamarind.jpg" alt=""  width="250px" height="150px"/></a>
 								<span class="desc">This is very delicious</span>
 								<span class="price">$10.00</span>
+								<span class="rating">
+									<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+								</span>
 							</div>
 							<div class="panel-footer">
 								<div class="btn-group" data-toggle="bottons">
 									<label class="btn btn-success btn-sm shadowbox active">
 										<span class="glyphicon-ok-circle"></span>
-										<input id="chk1" type="checkbox" checked="checked"></input>
+										<input id="chk1" type="checkbox"></input>
 										<label for="chk1">Selected</label>
 									</label>
 								</div>
@@ -108,12 +126,15 @@
 								<a href="#"><img src="img/fruit/Mandarin.jpg" alt=""  width="250px" height="150px"/></a>
 								<span class="desc">This is very delicious</span>
 								<span class="price">$10.00</span>
+								<span class="rating">
+									<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+								</span>
 							</div>
 							<div class="panel-footer">
 								<div class="btn-group" data-toggle="bottons">
 									<label class="btn btn-success btn-sm shadowbox active">
 										<span class="glyphicon-ok-circle"></span>
-										<input id="chk1" type="checkbox" checked="checked"></input>
+										<input id="chk1" type="checkbox"></input>
 										<label for="chk1">Selected</label>
 									</label>
 								</div>
@@ -128,12 +149,15 @@
 								<a href="#"><img src="img/fruit/Sweetsop.jpg" alt=""  width="250px" height="150px"/></a>
 								<span class="desc">This is very delicious</span>
 								<span class="price">$10.00</span>
+								<span class="rating">
+									<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+								</span>
 							</div>
 							<div class="panel-footer">
 								<div class="btn-group" data-toggle="bottons">
 									<label class="btn btn-success btn-sm shadowbox active">
 										<span class="glyphicon-ok-circle"></span>
-										<input id="chk1" type="checkbox" checked="checked"></input>
+										<input id="chk1" type="checkbox"></input>
 										<label for="chk1">Selected</label>
 									</label>
 								</div>
@@ -148,12 +172,15 @@
 								<a href="#"><img src="img/fruit/Orange.jpg" alt=""  width="250px" height="150px"/></a>
 								<span class="desc">This is very delicious</span>
 								<span class="price">$10.00</span>
+								<span class="rating">
+									<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+								</span>
 							</div>
 							<div class="panel-footer">
 								<div class="btn-group" data-toggle="bottons">
 									<label class="btn btn-success btn-sm shadowbox active">
 										<span class="glyphicon-ok-circle"></span>
-										<input id="chk1" type="checkbox" checked="checked"></input>
+										<input id="chk1" type="checkbox"></input>
 										<label for="chk1">Selected</label>
 									</label>
 								</div>
@@ -168,12 +195,15 @@
 								<a href="#"><img src="img/fruit/Pomelo.jpg" alt=""  width="250px" height="150px"/></a>
 								<span class="desc">This is very delicious</span>
 								<span class="price">$10.00</span>
+								<span class="rating">
+									<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+								</span>
 							</div>
 							<div class="panel-footer">
 								<div class="btn-group" data-toggle="bottons">
 									<label class="btn btn-success btn-sm shadowbox active">
 										<span class="glyphicon-ok-circle"></span>
-										<input id="chk1" type="checkbox" checked="checked"></input>
+										<input id="chk1" type="checkbox"></input>
 										<label for="chk1">Selected</label>
 									</label>
 								</div>
@@ -188,12 +218,15 @@
 								<a href="#"><img src="img/fruit/Papaya.jpg" alt=""  width="250px" height="150px"/></a>
 								<span class="desc">This is very delicious</span>
 								<span class="price">$10.00</span>
+								<span class="rating">
+									<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+								</span>
 							</div>
 							<div class="panel-footer">
 								<div class="btn-group" data-toggle="bottons">
 									<label class="btn btn-success btn-sm shadowbox active">
 										<span class="glyphicon-ok-circle"></span>
-										<input id="chk1" type="checkbox" checked="checked"></input>
+										<input id="chk1" type="checkbox"></input>
 										<label for="chk1">Selected</label>
 									</label>
 								</div>
@@ -208,12 +241,15 @@
 								<a href="#"><img src="img/fruit/Carambola.jpg" alt=""  width="250px" height="150px"/></a>
 								<span class="desc">This is very delicious</span>
 								<span class="price">$10.00</span>
+								<span class="rating">
+									<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+								</span>
 							</div>
 							<div class="panel-footer">
 								<div class="btn-group" data-toggle="bottons">
 									<label class="btn btn-success btn-sm shadowbox active">
 										<span class="glyphicon-ok-circle"></span>
-										<input id="chk1" type="checkbox" checked="checked"></input>
+										<input id="chk1" type="checkbox"></input>
 										<label for="chk1">Selected</label>
 									</label>
 								</div>
@@ -228,12 +264,15 @@
 								<a href="#"><img src="img/fruit/Guava.jpg" alt=""  width="250px" height="150px"/></a>
 								<span class="desc">This is very delicious</span>
 								<span class="price">$10.00</span>
+								<span class="rating">
+									<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+								</span>
 							</div>
 							<div class="panel-footer">
 								<div class="btn-group" data-toggle="bottons">
 									<label class="btn btn-success btn-sm shadowbox active">
 										<span class="glyphicon-ok-circle"></span>
-										<input id="chk1" type="checkbox" checked="checked"></input>
+										<input id="chk1" type="checkbox"></input>
 										<label for="chk1">Selected</label>
 									</label>
 								</div>
@@ -248,12 +287,15 @@
 								<a href="#"><img src="img/fruit/Rambutan.jpg" alt=""  width="250px" height="150px"/></a>
 								<span class="desc">This is very delicious</span>
 								<span class="price">$10.00</span>
+								<span class="rating">
+									<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+								</span>
 							</div>
 							<div class="panel-footer">
 								<div class="btn-group" data-toggle="bottons">
 									<label class="btn btn-success btn-sm shadowbox active">
 										<span class="glyphicon-ok-circle"></span>
-										<input id="chk1" type="checkbox" checked="checked"></input>
+										<input id="chk1" type="checkbox"></input>
 										<label for="chk1">Selected</label>
 									</label>
 								</div>
@@ -269,12 +311,15 @@
 								<a href="#"><img src="img/fruit/Wax-Apple.jpg" alt=""  width="250px" height="150px"/></a>
 								<span class="desc">This is very delicious</span>
 								<span class="price">$10.00</span>
+								<span class="rating">
+									<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+								</span>
 							</div>
 							<div class="panel-footer">
 								<div class="btn-group" data-toggle="bottons">
 									<label class="btn btn-success btn-sm shadowbox active">
 										<span class="glyphicon-ok-circle"></span>
-										<input id="chk1" type="checkbox" checked="checked"></input>
+										<input id="chk1" type="checkbox"></input>
 										<label for="chk1">Selected</label>
 									</label>
 								</div>
@@ -288,12 +333,15 @@
 								<a href="#"><img src="img/fruit/Jackfruit.jpg" alt=""  width="250px" height="150px"/></a>
 								<span class="desc">This is very delicious</span>
 								<span class="price">$10.00</span>
+								<span class="rating">
+									<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+								</span>
 							</div>
 							<div class="panel-footer">
 								<div class="btn-group" data-toggle="bottons">
 									<label class="btn btn-success btn-sm shadowbox active">
 										<span class="glyphicon-ok-circle"></span>
-										<input id="chk1" type="checkbox" checked="checked"></input>
+										<input id="chk1" type="checkbox"></input>
 										<label for="chk1">Selected</label>
 									</label>
 								</div>
@@ -307,12 +355,15 @@
 								<a href="#"><img src="img/fruit/Longkong.jpg" alt=""  width="250px" height="150px"/></a>
 								<span class="desc">This is very delicious</span>
 								<span class="price">$10.00</span>
+								<span class="rating">
+									<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+								</span>
 							</div>
 							<div class="panel-footer">
 								<div class="btn-group" data-toggle="bottons">
 									<label class="btn btn-success btn-sm shadowbox active">
 										<span class="glyphicon-ok-circle"></span>
-										<input id="chk1" type="checkbox" checked="checked"></input>
+										<input id="chk1" type="checkbox"></input>
 										<label for="chk1">Selected</label>
 									</label>
 								</div>
@@ -327,12 +378,15 @@
 								<a href="#"><img src="img/fruit/Pineapple.jpg" alt=""  width="250px" height="150px"/></a>
 								<span class="desc">This is very delicious</span>
 								<span class="price">$10.00</span>
+								<span class="rating">
+									<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+								</span>
 							</div>
 							<div class="panel-footer">
 								<div class="btn-group" data-toggle="bottons">
 									<label class="btn btn-success btn-sm shadowbox active">
 										<span class="glyphicon-ok-circle"></span>
-										<input id="chk1" type="checkbox" checked="checked"></input>
+										<input id="chk1" type="checkbox"></input>
 										<label for="chk1">Selected</label>
 									</label>
 								</div>
@@ -347,12 +401,15 @@
 								<a href="#"><img src="img/fruit/Banana.jpg" alt=""  width="250px" height="150px"/></a>
 								<span class="desc">This is very delicious</span>
 								<span class="price">$10.00</span>
+								<span class="rating">
+									<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+								</span>
 							</div>
 							<div class="panel-footer">
 								<div class="btn-group" data-toggle="bottons">
 									<label class="btn btn-success btn-sm shadowbox active">
 										<span class="glyphicon-ok-circle"></span>
-										<input id="chk1" type="checkbox" checked="checked"></input>
+										<input id="chk1" type="checkbox"></input>
 										<label for="chk1">Selected</label>
 									</label>
 								</div>
@@ -368,12 +425,15 @@
 								<a href="#"><img src="img/fruit/Passionfruit.jpg" alt=""  width="250px" height="150px"/></a>
 								<span class="desc">This is very delicious</span>
 								<span class="price">$10.00</span>
+								<span class="rating">
+									<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+								</span>
 							</div>
 							<div class="panel-footer">
 								<div class="btn-group" data-toggle="bottons">
 									<label class="btn btn-success btn-sm shadowbox active">
 										<span class="glyphicon-ok-circle"></span>
-										<input id="chk1" type="checkbox" checked="checked"></input>
+										<input id="chk1" type="checkbox"></input>
 										<label for="chk1">Selected</label>
 									</label>
 								</div>
@@ -389,12 +449,15 @@
 								<a href="#"><img src="img/fruit/Coconut.jpg" alt=""  width="250px" height="150px"/></a>
 								<span class="desc">This is very delicious</span>
 								<span class="price">$10.00</span>
+								<span class="rating">
+									<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+								</span>
 							</div>
 							<div class="panel-footer">
 								<div class="btn-group" data-toggle="bottons">
 									<label class="btn btn-success btn-sm shadowbox active">
 										<span class="glyphicon-ok-circle"></span>
-										<input id="chk1" type="checkbox" checked="checked"></input>
+										<input id="chk1" type="checkbox"></input>
 										<label for="chk1">Selected</label>
 									</label>
 								</div>
@@ -409,12 +472,15 @@
 								<a href="#"><img src="img/fruit/Longan.jpg" alt=""  width="250px" height="150px"/></a>
 								<span class="desc">This is very delicious</span>
 								<span class="price">$10.00</span>
+								<span class="rating">
+									<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+								</span>
 							</div>
 							<div class="panel-footer">
 								<div class="btn-group" data-toggle="bottons">
 									<label class="btn btn-success btn-sm shadowbox active">
 										<span class="glyphicon-ok-circle"></span>
-										<input id="chk1" type="checkbox" checked="checked"></input>
+										<input id="chk1" type="checkbox"></input>
 										<label for="chk1">Selected</label>
 									</label>
 								</div>
@@ -430,12 +496,15 @@
 								<a href="#"><img src="img/fruit/Durian.jpg" alt=""  width="250px" height="150px"/></a>
 								<span class="desc">This is very delicious</span>
 								<span class="price">$10.00</span>
+								<span class="rating">
+									<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+								</span>
 							</div>
 							<div class="panel-footer">
 								<div class="btn-group" data-toggle="bottons">
 									<label class="btn btn-success btn-sm shadowbox active">
 										<span class="glyphicon-ok-circle"></span>
-										<input id="chk1" type="checkbox" checked="checked"></input>
+										<input id="chk1" type="checkbox"></input>
 										<label for="chk1">Selected</label>
 									</label>
 								</div>
@@ -450,12 +519,15 @@
 								<a href="#"><img src="img/fruit/Mango.jpg" alt=""  width="250px" height="150px"/></a>
 								<span class="desc">This is very delicious</span>
 								<span class="price">$10.00</span>
+								<span class="rating">
+									<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+								</span>
 							</div>
 							<div class="panel-footer">
 								<div class="btn-group" data-toggle="bottons">
 									<label class="btn btn-success btn-sm shadowbox active">
 										<span class="glyphicon-ok-circle"></span>
-										<input id="chk1" type="checkbox" checked="checked"></input>
+										<input id="chk1" type="checkbox"></input>
 										<label for="chk1">Selected</label>
 									</label>
 								</div>
@@ -471,12 +543,15 @@
 								<a href="#"><img src="img/fruit/Litchi.jpg" alt=""  width="250px" height="150px"/></a>
 								<span class="desc">This is very delicious</span>
 								<span class="price">$10.00</span>
+								<span class="rating">
+									<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+								</span>
 							</div>
 							<div class="panel-footer">
 								<div class="btn-group" data-toggle="bottons">
 									<label class="btn btn-success btn-sm shadowbox active">
 										<span class="glyphicon-ok-circle"></span>
-										<input id="chk1" type="checkbox" checked="checked"></input>
+										<input id="chk1" type="checkbox"></input>
 										<label for="chk1">Selected</label>
 									</label>
 								</div>
@@ -491,12 +566,15 @@
 								<a href="#"><img src="img/fruit/Mangosteen.jpg" alt=""  width="250px" height="150px"/></a>
 								<span class="desc">This is very delicious</span>
 								<span class="price">$10.00</span>
+								<span class="rating">
+									<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+								</span>
 							</div>
 							<div class="panel-footer">
 								<div class="btn-group" data-toggle="bottons">
 									<label class="btn btn-success btn-sm shadowbox active">
 										<span class="glyphicon-ok-circle"></span>
-										<input id="chk1" type="checkbox" checked="checked"></input>
+										<input id="chk1" type="checkbox"></input>
 										<label for="chk1">Selected</label>
 									</label>
 								</div>
